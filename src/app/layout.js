@@ -3,7 +3,7 @@ import "./globals.css";
 
 // const inter = Inter({ subsets: ["latin"] });
 
-const lato = Lato({ subsets: ["latin"] });
+const lato = Lato({ subsets: ["latin"], weight: "400" });
 export const metadata = {
   title: "Google search app clone",
   description: "Building google search app clone",
