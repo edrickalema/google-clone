@@ -44,7 +44,7 @@ const HomeSearch = () => {
         <Button
           action={randomSearch}
           disabled={loading}
-          btnText={loading ? <CgSpinnerTwo /> : "I am Feeling Lucky"}
+          btnText={loading ? "Loading ..." : "I am Feeling Lucky"}
         />
       </div>
     </div>
