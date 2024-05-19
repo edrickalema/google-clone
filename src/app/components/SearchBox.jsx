@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import { BiMicrophone } from "react-icons/bi";
-import { BiSearch } from "react-icons/bi";
+import { FaMicrophone } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { AiOutlineSearch } from "react-icons/ai";
 import { useSearchParams } from "next/navigation";
@@ -38,7 +38,7 @@ const SearchBox = () => {
           onClick={() => setTerm(" ")}
           className="text-2xl text-gray-500 cursor-pointer"
         />
-        <BiMicrophone className="hidden sm:inline-flex mx-2 border-l-2 pl-4 mr-3 border-gray-500 text-blue-500 text-4xl" />
+        <FaMicrophone className="hidden sm:inline-flex mx-2 border-l-2 pl-4 mr-3 border-gray-500 text-blue-500 text-4xl" />
         <AiOutlineSearch
           onClick={handleSubmit}
           className="text-2xl hidden sm:inline-flex text-blue-500 cursor-pointer"

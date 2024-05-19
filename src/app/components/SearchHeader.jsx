@@ -6,6 +6,7 @@ import SearchBox from "./SearchBox";
 import { RiSettings3Line } from "react-icons/ri";
 import { TbGridDots } from "react-icons/tb";
 import Button from "./Button";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 const SearchHeader = () => {
   return (
     <div className="sticky top-0 bg-white">
@@ -32,6 +33,8 @@ const SearchHeader = () => {
           Sign in
         </button>
       </div>
+
+      <SearchHeaderOptions />
     </div>
   );
 };
